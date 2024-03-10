@@ -1,0 +1,697 @@
+{
+  "nodes": [
+    {
+      "type": "APT",
+      "ident": "EGLC",
+      "name": "London City",
+      "alt": 0,
+      "lat": 51.5052,
+      "lon": 0.055175899999994726,
+      "via": null
+    },
+    {
+      "type": "FIX",
+      "ident": "PEDIG",
+      "name": null,
+      "alt": 35000,
+      "lat": 52.746700000000004,
+      "lon": -1.7194399999999916,
+      "via": null
+    },
+    {
+      "type": "FIX",
+      "ident": "NUGRA",
+      "name": null,
+      "alt": 35000,
+      "lat": 53.02940000000001,
+      "lon": -2.3038899999999956,
+      "via": { "type": "AWY-LO", "ident": "Y53" }
+    },
+    {
+      "type": "FIX",
+      "ident": "NANTI",
+      "name": null,
+      "alt": 35000,
+      "lat": 53.13749999999999,
+      "lon": -2.5669399999999882,
+      "via": { "type": "AWY-LO", "ident": "Y53" }
+    },
+    {
+      "type": "FIX",
+      "ident": "MOGTA",
+      "name": null,
+      "alt": 35000,
+      "lat": 53.16890000000001,
+      "lon": -2.636110000000002,
+      "via": { "type": "AWY-LO", "ident": "Y53" }
+    },
+    {
+      "type": "FIX",
+      "ident": "EKLAD",
+      "name": null,
+      "alt": 35000,
+      "lat": 53.25389999999999,
+      "lon": -2.8247200000000134,
+      "via": { "type": "AWY-LO", "ident": "Y53" }
+    },
+    {
+      "type": "VOR",
+      "ident": "WAL",
+      "name": "WALLASEY",
+      "alt": 35000,
+      "lat": 53.39189999999999,
+      "lon": -3.13445999999999,
+      "via": { "type": "AWY-HI", "ident": "UY53" }
+    },
+    {
+      "type": "FIX",
+      "ident": "PENIL",
+      "name": null,
+      "alt": 35000,
+      "lat": 53.61580000000001,
+      "lon": -3.6636100000000056,
+      "via": { "type": "AWY-HI", "ident": "UL10" }
+    },
+    {
+      "type": "FIX",
+      "ident": "CASEL",
+      "name": null,
+      "alt": 35000,
+      "lat": 53.83109999999999,
+      "lon": -4.1825000000000045,
+      "via": { "type": "AWY-HI", "ident": "UL10" }
+    },
+    {
+      "type": "FIX",
+      "ident": "KELLY",
+      "name": null,
+      "alt": 35000,
+      "lat": 53.90530000000001,
+      "lon": -4.364170000000001,
+      "via": { "type": "AWY-HI", "ident": "UL10" }
+    },
+    {
+      "type": "VOR",
+      "ident": "IOM",
+      "name": "ISLE OF MAN",
+      "alt": 35000,
+      "lat": 54.066900000000004,
+      "lon": -4.763470000000012,
+      "via": { "type": "AWY-LO", "ident": "L10" }
+    },
+    {
+      "type": "FIX",
+      "ident": "SLYDA",
+      "name": null,
+      "alt": 35000,
+      "lat": 54.2011,
+      "lon": -5.087500000000006,
+      "via": { "type": "AWY-HI", "ident": "L10" }
+    },
+    {
+      "type": "FIX",
+      "ident": "RINGA",
+      "name": null,
+      "alt": 35000,
+      "lat": 54.398300000000006,
+      "lon": -5.5711100000000044,
+      "via": { "type": "AWY-HI", "ident": "L10" }
+    },
+    {
+      "type": "FIX",
+      "ident": "DUFFY",
+      "name": null,
+      "alt": 35000,
+      "lat": 54.514700000000005,
+      "lon": -5.860829999999993,
+      "via": { "type": "AWY-HI", "ident": "L10" }
+    },
+    {
+      "type": "VOR",
+      "ident": "BEL",
+      "name": "BELFAST",
+      "alt": 35000,
+      "lat": 54.661100000000005,
+      "lon": -6.22990999999999,
+      "via": { "type": "AWY-HI", "ident": "L10" }
+    },
+    {
+      "type": "LATLON",
+      "ident": "5500N0800W",
+      "name": null,
+      "alt": 35000,
+      "lat": 55,
+      "lon": -8,
+      "via": null
+    },
+    {
+      "type": "LATLON",
+      "ident": "5500N0900W",
+      "name": null,
+      "alt": 35000,
+      "lat": 55,
+      "lon": -9,
+      "via": null
+    },
+    {
+      "type": "LATLON",
+      "ident": "5500N01000W",
+      "name": null,
+      "alt": 35000,
+      "lat": 55,
+      "lon": -10,
+      "via": null
+    },
+    {
+      "type": "LATLON",
+      "ident": "5500N01100W",
+      "name": null,
+      "alt": 35000,
+      "lat": 55,
+      "lon": -11,
+      "via": null
+    },
+    {
+      "type": "LATLON",
+      "ident": "5500N01200W",
+      "name": null,
+      "alt": 35000,
+      "lat": 55,
+      "lon": -12,
+      "via": null
+    },
+    {
+      "type": "LATLON",
+      "ident": "5500N01300W",
+      "name": null,
+      "alt": 35000,
+      "lat": 55,
+      "lon": -13,
+      "via": null
+    },
+    {
+      "type": "LATLON",
+      "ident": "5500N01400W",
+      "name": null,
+      "alt": 35000,
+      "lat": 55,
+      "lon": -14,
+      "via": null
+    },
+    {
+      "type": "FIX",
+      "ident": "RESNO",
+      "name": null,
+      "alt": 35000,
+      "lat": 55,
+      "lon": -15,
+      "via": null
+    },
+    {
+      "type": "LATLON",
+      "ident": "56/20",
+      "name": null,
+      "alt": 35000,
+      "lat": 56,
+      "lon": -20,
+      "via": { "type": "NAT", "ident": "A" }
+    },
+    {
+      "type": "LATLON",
+      "ident": "57/30",
+      "name": null,
+      "alt": 35000,
+      "lat": 57,
+      "lon": -30,
+      "via": { "type": "NAT", "ident": "A" }
+    },
+    {
+      "type": "LATLON",
+      "ident": "59/40",
+      "name": null,
+      "alt": 35000,
+      "lat": 59,
+      "lon": -40,
+      "via": { "type": "NAT", "ident": "A" }
+    },
+    {
+      "type": "LATLON",
+      "ident": "60/50",
+      "name": null,
+      "alt": 35000,
+      "lat": 60,
+      "lon": -50,
+      "via": { "type": "NAT", "ident": "A" }
+    },
+    {
+      "type": "FIX",
+      "ident": "SAVRY",
+      "name": null,
+      "alt": 35000,
+      "lat": 59.4667,
+      "lon": -58,
+      "via": { "type": "NAT", "ident": "A" }
+    },
+    {
+      "type": "LATLON",
+      "ident": "6000N06100W",
+      "name": null,
+      "alt": 35000,
+      "lat": 60,
+      "lon": -61,
+      "via": null
+    },
+    {
+      "type": "FIX",
+      "ident": "MUSLO",
+      "name": null,
+      "alt": 35000,
+      "lat": 60.16669999999999,
+      "lon": -62,
+      "via": null
+    },
+    {
+      "type": "FIX",
+      "ident": "RODBO",
+      "name": null,
+      "alt": 35000,
+      "lat": 60.08330000000001,
+      "lon": -65.1667,
+      "via": { "type": "AWY-HI", "ident": "N842A" }
+    },
+    {
+      "type": "LATLON",
+      "ident": "6000N06600W",
+      "name": null,
+      "alt": 35000,
+      "lat": 60,
+      "lon": -66,
+      "via": null
+    },
+    {
+      "type": "LATLON",
+      "ident": "6000N06700W",
+      "name": null,
+      "alt": 35000,
+      "lat": 60,
+      "lon": -67,
+      "via": null
+    },
+    {
+      "type": "LATLON",
+      "ident": "6000N06800W",
+      "name": null,
+      "alt": 35000,
+      "lat": 60,
+      "lon": -68,
+      "via": null
+    },
+    {
+      "type": "LATLON",
+      "ident": "6000N06900W",
+      "name": null,
+      "alt": 35000,
+      "lat": 60,
+      "lon": -69,
+      "via": null
+    },
+    {
+      "type": "FIX",
+      "ident": "TUNNI",
+      "name": null,
+      "alt": 35000,
+      "lat": 60,
+      "lon": -70,
+      "via": null
+    },
+    {
+      "type": "FIX",
+      "ident": "KEMSA",
+      "name": null,
+      "alt": 35000,
+      "lat": 56.837500000000006,
+      "lon": -80,
+      "via": { "type": "AWY-HI", "ident": "SCAJ" }
+    },
+    {
+      "type": "FIX",
+      "ident": "MANUP",
+      "name": null,
+      "alt": 35000,
+      "lat": 52.044399999999996,
+      "lon": -90,
+      "via": { "type": "AWY-HI", "ident": "SCAJ" }
+    },
+    {
+      "type": "NDB",
+      "ident": "YPL",
+      "name": "PICKLE LAKE",
+      "alt": 35000,
+      "lat": 51.441900000000004,
+      "lon": -90.2223,
+      "via": null
+    },
+    {
+      "type": "NDB",
+      "ident": "RL",
+      "name": "RED LAKE",
+      "alt": 35000,
+      "lat": 51.06100000000001,
+      "lon": -93.7849,
+      "via": { "type": "AWY-LO", "ident": "RR11" }
+    },
+    {
+      "type": "VOR",
+      "ident": "YRL",
+      "name": "RED LAKE",
+      "alt": 35000,
+      "lat": 51.07159999999999,
+      "lon": -93.762,
+      "via": null
+    },
+    {
+      "type": "VOR",
+      "ident": "YWG",
+      "name": "WINNIPEG",
+      "alt": 35000,
+      "lat": 49.92779999999999,
+      "lon": -97.2392,
+      "via": { "type": "AWY-LO", "ident": "V181" }
+    },
+    {
+      "type": "NDB",
+      "ident": "UDE",
+      "name": "DELTA",
+      "alt": 35000,
+      "lat": 50.16640000000001,
+      "lon": -98.3072,
+      "via": { "type": "AWY-LO", "ident": "V304" }
+    },
+    {
+      "type": "VOR",
+      "ident": "YBR",
+      "name": "BRANDON",
+      "alt": 35000,
+      "lat": 49.90989999999999,
+      "lon": -99.9457,
+      "via": { "type": "AWY-LO", "ident": "V304" }
+    },
+    {
+      "type": "VOR",
+      "ident": "ISN",
+      "name": "WILLISTON",
+      "alt": 35000,
+      "lat": 48.2534,
+      "lon": -103.751,
+      "via": { "type": "AWY-HI", "ident": "J549" }
+    },
+    {
+      "type": "FIX",
+      "ident": "LAMBE",
+      "name": null,
+      "alt": 35000,
+      "lat": 47.76140000000001,
+      "lon": -104.35,
+      "via": { "type": "AWY-LO", "ident": "V465" }
+    },
+    {
+      "type": "FIX",
+      "ident": "EXADE",
+      "name": null,
+      "alt": 35000,
+      "lat": 47.59909999999999,
+      "lon": -104.545,
+      "via": { "type": "AWY-LO", "ident": "V465" }
+    },
+    {
+      "type": "FIX",
+      "ident": "TRUED",
+      "name": null,
+      "alt": 35000,
+      "lat": 46.14089999999999,
+      "lon": -107.91,
+      "via": { "type": "AWY-LO", "ident": "T331" }
+    },
+    {
+      "type": "VOR",
+      "ident": "BIL",
+      "name": "BILLINGS",
+      "alt": 35000,
+      "lat": 45.80860000000001,
+      "lon": -108.625,
+      "via": { "type": "AWY-LO", "ident": "T331" }
+    },
+    {
+      "type": "FIX",
+      "ident": "LAREI",
+      "name": null,
+      "alt": 35000,
+      "lat": 45.596900000000005,
+      "lon": -108.814,
+      "via": { "type": "AWY-LO", "ident": "V465" }
+    },
+    {
+      "type": "FIX",
+      "ident": "CUKUV",
+      "name": null,
+      "alt": 35000,
+      "lat": 45.48609999999999,
+      "lon": -108.913,
+      "via": { "type": "AWY-LO", "ident": "V465" }
+    },
+    {
+      "type": "FIX",
+      "ident": "HAKDI",
+      "name": null,
+      "alt": 35000,
+      "lat": 45.43350000000001,
+      "lon": -108.96,
+      "via": { "type": "AWY-LO", "ident": "V465" }
+    },
+    {
+      "type": "FIX",
+      "ident": "REDLO",
+      "name": null,
+      "alt": 35000,
+      "lat": 45.24340000000001,
+      "lon": -109.127,
+      "via": { "type": "AWY-LO", "ident": "V465" }
+    },
+    {
+      "type": "FIX",
+      "ident": "TOCUD",
+      "name": null,
+      "alt": 35000,
+      "lat": 44.064700000000016,
+      "lon": -110.138,
+      "via": { "type": "AWY-LO", "ident": "V465" }
+    },
+    {
+      "type": "VOR",
+      "ident": "DNW",
+      "name": "DUNOIR",
+      "alt": 35000,
+      "lat": 43.82830000000001,
+      "lon": -110.335,
+      "via": { "type": "AWY-LO", "ident": "V465" }
+    },
+    {
+      "type": "VOR",
+      "ident": "JAC",
+      "name": "JACKSON",
+      "alt": 35000,
+      "lat": 43.62100000000001,
+      "lon": -110.732,
+      "via": { "type": "AWY-LO", "ident": "V330" }
+    },
+    {
+      "type": "FIX",
+      "ident": "ECUNA",
+      "name": null,
+      "alt": 35000,
+      "lat": 43.42329999999998,
+      "lon": -110.978,
+      "via": { "type": "AWY-LO", "ident": "V465" }
+    },
+    {
+      "type": "FIX",
+      "ident": "ELKHO",
+      "name": null,
+      "alt": 35000,
+      "lat": 43.3862,
+      "lon": -111.024,
+      "via": { "type": "AWY-LO", "ident": "V465" }
+    },
+    {
+      "type": "FIX",
+      "ident": "CILEG",
+      "name": null,
+      "alt": 35000,
+      "lat": 43.2765,
+      "lon": -111.159,
+      "via": { "type": "AWY-LO", "ident": "V465" }
+    },
+    {
+      "type": "FIX",
+      "ident": "GIGSE",
+      "name": null,
+      "alt": 35000,
+      "lat": 43.22659999999999,
+      "lon": -111.22,
+      "via": { "type": "AWY-LO", "ident": "V465" }
+    },
+    {
+      "type": "FIX",
+      "ident": "OLNUE",
+      "name": null,
+      "alt": 35000,
+      "lat": 43.132000000000005,
+      "lon": -111.336,
+      "via": { "type": "AWY-LO", "ident": "V465" }
+    },
+    {
+      "type": "FIX",
+      "ident": "LUNDI",
+      "name": null,
+      "alt": 35000,
+      "lat": 42.691100000000006,
+      "lon": -111.869,
+      "via": { "type": "AWY-LO", "ident": "V465" }
+    },
+    {
+      "type": "VOR",
+      "ident": "MLD",
+      "name": "MALAD CITY",
+      "alt": 35000,
+      "lat": 42.199900000000014,
+      "lon": -112.451,
+      "via": { "type": "AWY-LO", "ident": "V465" }
+    },
+    {
+      "type": "FIX",
+      "ident": "KREBS",
+      "name": null,
+      "alt": 35000,
+      "lat": 41.4888,
+      "lon": -112.435,
+      "via": { "type": "AWY-LO", "ident": "V257" }
+    },
+    {
+      "type": "FIX",
+      "ident": "NUBGE",
+      "name": null,
+      "alt": 35000,
+      "lat": 41.333,
+      "lon": -112.431,
+      "via": { "type": "AWY-LO", "ident": "V257" }
+    },
+    {
+      "type": "FIX",
+      "ident": "PATIO",
+      "name": null,
+      "alt": 35000,
+      "lat": 41.266700000000014,
+      "lon": -112.533,
+      "via": null
+    },
+    {
+      "type": "FIX",
+      "ident": "PICHO",
+      "name": null,
+      "alt": 35000,
+      "lat": 39.9667,
+      "lon": -112.583,
+      "via": { "type": "AWY-HI", "ident": "Q842" }
+    },
+    {
+      "type": "FIX",
+      "ident": "TABLL",
+      "name": null,
+      "alt": 35000,
+      "lat": 38.66559999999998,
+      "lon": -113.176,
+      "via": { "type": "AWY-HI", "ident": "Q842" }
+    },
+    {
+      "type": "FIX",
+      "ident": "WINEN",
+      "name": null,
+      "alt": 35000,
+      "lat": 37.9333,
+      "lon": -113.5,
+      "via": { "type": "AWY-HI", "ident": "Q842" }
+    },
+    {
+      "type": "FIX",
+      "ident": "BLIPP",
+      "name": null,
+      "alt": 35000,
+      "lat": 36.7115,
+      "lon": -114.474,
+      "via": { "type": "AWY-HI", "ident": "Q842" }
+    },
+    {
+      "type": "FIX",
+      "ident": "IFEYE",
+      "name": null,
+      "alt": 35000,
+      "lat": 36.4156,
+      "lon": -114.797,
+      "via": { "type": "AWY-HI", "ident": "Q70" }
+    },
+    {
+      "type": "VOR",
+      "ident": "LAS",
+      "name": "LAS VEGAS",
+      "alt": 35000,
+      "lat": 36.0797,
+      "lon": -115.16,
+      "via": { "type": "AWY-HI", "ident": "Q70" }
+    },
+    {
+      "type": "FIX",
+      "ident": "CLARR",
+      "name": null,
+      "alt": 35000,
+      "lat": 35.675700000000006,
+      "lon": -115.68,
+      "via": { "type": "AWY-HI", "ident": "J100" }
+    },
+    {
+      "type": "FIX",
+      "ident": "MISEN",
+      "name": null,
+      "alt": 26000,
+      "lat": 35.1023,
+      "lon": -116.404,
+      "via": { "type": "AWY-HI", "ident": "J100" }
+    },
+    {
+      "type": "VOR",
+      "ident": "DAG",
+      "name": "DAGGETT",
+      "alt": 23400,
+      "lat": 34.962500000000006,
+      "lon": -116.578,
+      "via": { "type": "AWY-HI", "ident": "J100" }
+    },
+    {
+      "type": "FIX",
+      "ident": "BASAL",
+      "name": null,
+      "alt": 19400,
+      "lat": 34.7578,
+      "lon": -116.862,
+      "via": { "type": "AWY-LO", "ident": "V394" }
+    },
+    {
+      "type": "APT",
+      "ident": "KLAX",
+      "name": "Los Angeles Intl",
+      "alt": 0,
+      "lat": 33.9431,
+      "lon": -118.409,
+      "via": null
+    }
+  ]
+}

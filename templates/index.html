@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.2.1/css/ol.css" type="text/css">
+    <style>
+      .map {
+        height: 400px;
+        width: 100%;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.2.1/build/ol.js"></script>
+    <title>Random Points From Code</title>
+  </head>
+  <body>
+    <h1>City Weather Comparison</h1>
+  
+    <label for="cityA">City A:</label>
+    <select id="cityA" name="cityA">
+      <option value="Los Angeles">Los Angeles</option>
+      <option value="London">London</option>
+      <option value="Paris">Paris</option>
+      <option value="New York">New York</option>
+    </select>
+  
+    <label for="cityB">City B:</label>
+    <select id="cityB" name="cityB">
+      <option value="Los Angeles">Los Angeles</option>
+      <option value="London">London</option>
+      <option value="Paris">Paris</option>
+      <option value="New York">New York</option>
+    </select>
+
+  <label for="weatherScore">Weather Score:</label>
+  <input type="number" id="weatherScore" name="weatherScore">
+
+  <button id="compareButton">Compare</button>
+    <div id="map" class="map"></div>
+    <script type="text/javascript">
+
+      var map = null;
+
+document.getElementById('compareButton').addEventListener('click', function() {
+      var cityA = document.getElementById('cityA').value;
+      var cityB = document.getElementById('cityB').value;
+      var weatherScore = document.getElementById('weatherScore').value;
+
+      // Construct the URL with query parameters
+      var url = 'http://localhost:5000/get_track?A=' + encodeURIComponent(cityA) +
+                '&B=' + encodeURIComponent(cityB) +
+                '&weather_score=' + encodeURIComponent(weatherScore);
+
+      // Send a GET request to the server
+      fetch(url)
+        .then(response => response.json())
+        .then(data => {
+          // Handle the response data
+          console.log(data);
+          var tuples = data["data"].match(/\([-.\d]+,[-.\d]+\)/g) || [];
+          var parsedTuples = tuples.map(function(tuple) {
+            var values = tuple.match(/[-.\d]+/g).map(function(value) {
+              return parseFloat(value);
+            });
+            return values;
+          });
+
+          console.log("tuples is ", parsedTuples);
+          const features = [];
+
+          for (var i = 0; i < parsedTuples.length; i++) {
+            var tuple = parsedTuples[i % parsedTuples.length]; // Select a tuple from the parsedTuples array
+            var lon = tuple[0];
+            var lat = tuple[1];
+
+            features.push(new ol.Feature({
+              geometry: new ol.geom.Point(ol.proj.fromLonLat([lon, lat]))
+            }));
+          }
+
+          console.log(features);
+          const vectorSource = new ol.source.Vector({
+        features
+      });
+      const vectorLayer = new ol.layer.Vector({
+        source: vectorSource,
+        style: new ol.style.Style({
+          image: new ol.style.Circle({
+            radius: 2,
+            fill: new ol.style.Fill({color: 'red'})
+          })
+        })
+      });
+      if(map != null) 
+      map.setTarget(null);
+
+      // create map and add layers
+      map = new ol.Map({
+        target: 'map',
+        layers: [
+          new ol.layer.Tile({
+            source: new ol.source.OSM()
+          }),
+          vectorLayer
+        ],
+        view: new ol.View({
+          center: ol.proj.fromLonLat([-75, 35]),
+          zoom: 2
+        })
+      });
+
+
+        })
+        .catch(error => {
+          // Handle any errors that occur during the request
+          console.error('Error:', error);
+        });
+
+
+      });
+
+      // generate 300 random points features
+      
+  
+    </script>
+  </body>
+</html>
